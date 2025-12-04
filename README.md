@@ -1,6 +1,6 @@
 # Projet Chat Client-Serveur (Java)
 
-Application de chat en Java utilisant sockets TCP et un serveur multithread.
+Application de chat en Java utilisant sockets et un serveur multithread.
 
 Chaque client se connecte, s'authentifie via un fichier users.txt, puis rejoint le canal de discussion.
 
