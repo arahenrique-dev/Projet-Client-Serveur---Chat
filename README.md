@@ -6,9 +6,13 @@ Chaque client se connecte, s'authentifie via un fichier users.txt, puis rejoint 
 
 C'est un système pour comprendre la communication réseau et le multithreading en Java, facilement testable avec netcat.
 
-- Pour lancer le programe, dans un terminal:
+## Éxécution du programme
+Pour lancer le programe, dans un terminal:
+
     javac ChatServer.java
+    
     java ChatServer
 
-- Dans un nouveau terminal (ou plusieurs):
+Dans un nouveau terminal (ou plusieurs):
+
     nc localhost 1234
